@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            p {
+                font-family: Arial;
+                margin-top: 0;
+                margin-bottom: 0px;
+            }
+
+            .cf-but{
+                background-color: rgb(59, 114, 224);
+                border: none;
+                color: white;
+                border-radius: 10px;
+                padding-top: 10px;
+                padding-bottom: 10px;
+                padding-right: 65px;
+                padding-left: 65px;
+                margin-left: 10px;
+                margin-right: 10px;
+                margin-bottom: 5px;
+            }
+
+            .del-but{
+                background-color: rgb(58, 59, 60);
+                border: none;
+                color: white;
+                border-radius: 10px;
+                padding-top: 10px;
+                padding-bottom: 10px;
+                padding-right: 69px;
+                padding-left: 69px;
+                margin-left: 10px;
+                margin-right: 10px;
+                margin-bottom: 10px;
+            }
+
+            .profile-pic{
+                width: 200px;
+                height: 200px;
+                object-fit: cover;
+                margin-bottom: 12px;
+                border-radius: 10px;
+            }
+
+            .name{
+                font-size: 18px;
+                font-weight: bold;
+                margin-bottom: 10px;
+                margin-left: 8px;
+            }
+
+            .friend{
+                display: grid;
+                grid-template-columns: 25px 1fr;
+                align-items: center;
+                margin-left: 9px;
+                margin-bottom: 10px;
+            }
+
+            .grid-all{
+                display: grid;
+                grid-template-columns: 200px 200px 200px;
+                column-gap: 20px;
+            }
+
+            .fr-pic{
+                height: 18px;
+                width: 18px;
+                object-fit: cover;
+                vertical-align: middle;
+                border-radius: 14px;
+            }
+
+            .mul-fr{
+                color: rgb(96, 96, 96);
+            }
+
+            .box{
+                width: 200px;
+                box-shadow: 1px 5px 10px rgba(0, 0, 0, 0.2);
+                vertical-align: top;
+                margin-right: 15px;
+                border-radius: 10px;
+            }
+        </style>
+    </head>
+
+    <body>
+        <div class="grid-all">
+            <div class="box">
+                <img class="profile-pic" src="thumbnails/thumbnail-6.webp" alt="Ava">
+
+                <p class="name">Bruh</p>
+
+                <div class="friend">
+                    <img class="fr-pic" src="channel-pic/channel-1.jpeg" alt="Fr">
+                    <p class="mul-fr">2 mutual friends</p>
+                </div>
+
+                <div>
+                    <button class="cf-but">
+                        <p>Confirm</p>
+                    </button>
+
+                    <button class="del-but">
+                        <p>Delete</p>
+                    </button>
+                </div>
+            </div>
+
+            <div class="box">
+                <img class="profile-pic" src="thumbnails/thumbnail-6.webp" alt="Ava">
+
+                <p class="name">Bruh</p>
+
+                <div class="friend">
+                    <img class="fr-pic" src="channel-pic/channel-1.jpeg" alt="Fr">
+                    <p class="mul-fr">2 mutual friends</p>
+                </div>
+
+                <div>
+                    <button class="cf-but">
+                        <p>Confirm</p>
+                    </button>
+
+                    <button class="del-but">
+                        <p>Delete</p>
+                    </button>
+                </div>
+            </div>
+
+            <div class="box">
+                <img class="profile-pic" src="thumbnails/thumbnail-6.webp" alt="Ava">
+
+                <p class="name">Lmao</p>
+
+                <div class="friend">
+                    <img class="fr-pic" src="channel-pic/channel-1.jpeg" alt="Fr">
+                    <p class="mul-fr">2 mutual friends</p>
+                </div>
+
+                <div>
+                    <button class="cf-but">
+                        <p>Confirm</p>
+                    </button>
+
+                    <button class="del-but">
+                        <p>Delete</p>
+                    </button>
+                </div>
+            </div>
+
+        </div>
+    </body>
+</html>
